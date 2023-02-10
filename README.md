@@ -22,5 +22,13 @@
 </ul>
 
 <h1>Go Live</h1>
-https://frontend-taupe-six.vercel.app/
+<ul>Server Deployed Link
+<li>https://dark-gold-bee-tutu.cyclic.app/carry-sum</li>
+</ul>
+
+
+
+<ul>App Deployed Link
+<li>https://frontend-taupe-six.vercel.app/</li>
+</ul>
 
