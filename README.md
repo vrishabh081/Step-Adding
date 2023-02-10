@@ -22,7 +22,7 @@
 </ul>
 
 <h1>Go Live</h1>
-<ul>Server Deployed Link
+<ul>Server Deployed Link with end-point (carry-sum)
 <li>https://dark-gold-bee-tutu.cyclic.app/carry-sum</li>
 </ul>
 
