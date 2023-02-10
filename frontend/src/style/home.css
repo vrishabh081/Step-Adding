@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+p{
+    background-color: rgba(128, 128, 128, 0.281);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+/* input box */
+#input-boxes{
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 470px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1rem 0;
+}
+#input-boxes>div{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1rem;
+}
+#input-boxes>div label{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+#input-boxes>div input{
+    width: 60%;
+    padding: 0.8rem 0.2rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 10px;
+}
+#input-boxes button{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.7rem 0;
+    width: 50%;
+    font-size: 1.2rem;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#input-boxes button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* table */
+table{
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 760px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1rem 0;
+    border: 1px solid;
+}
+thead th{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+tbody td {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    border: 1px solid;
+}
+
+/* media screen */
+@media screen and (max-width:768px) {
+     /* table */
+     table{
+        width: 100%;
+        border-radius: 5px;
+    }
+    thead th{
+        font-size: 1.2rem;
+    }
+    tbody td {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    p{
+        font-size: 1.5rem;
+        padding: 0.8rem 0;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+    #input-boxes{
+        width: 100%;
+        border-radius: 0px;
+    }
+    #input-boxes>div{
+        padding: 0 0.5rem;
+    }
+    #input-boxes>div label{
+        font-size: 1rem;
+    }
+    #input-boxes>div input{
+        width: 60%;
+        padding: 0.5rem 0.2rem;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    #input-boxes button{
+        width: 50%;
+    }
+
+    #input-boxes button{
+        padding: 0.5rem 0;
+        width: 60%;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    
+}
