@@ -1,7 +1,7 @@
 <h1>Step Adding<h1>
 
 <h1>Description</h1>
-<p>Hi, in this project, we are solving a real life problem. Here, we are calculating carry and printing sum step by step.</p>
+<p>Hi, in this project, we are solving a real-life problem. Here, we are calculating the carry and printing sum step by step.</p>
 
 <h1>Tech Stacks we have used</h1>
 
